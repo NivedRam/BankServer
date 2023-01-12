@@ -1,0 +1,115 @@
+Server Creation
+-----------------------
+1. Import Express
+
+
+2. Create an app using Express
+
+
+3. Create Port Number  (3000)
+
+
+4. Create Request According to our project
+
+
+nodemon Server
+---------------
+
+npm i -g nodemon
+user authentication express
+---------------------------
+
+jwt(Json Web Tocken) tocken
+----------------------------
+Jsonwebtocken  -   Librarry       npm  i jsonwebtocken
+Sign()         - Method used for generate tocken
+verify()       - Method to verify jwt tockens
+
+MiddleWares
+-----------
+
+- middle wares have the capacity to control server requests
+- its a function with 3 arguiments(request,response,next)
+
+
+ 2 types
+        1- Application specific MiddleWare
+        2- Router specific MiddleWare
+
+
+
+solving runtime errord in JS
+-----------------------------
+try catch
+
+        try{
+                error causing code
+        }
+
+        catch{
+                solution
+        }
+
+
+
+Mongo db
+
+-Mongo db server
+-Shell Comands
+
+        -to see the databases
+                -> show dbs
+        -open databases
+                ->use database_name
+        -view collection inside database
+                ->show collections
+        -to view datas inside collections
+                ->db.collection_name.find()
+        -to view any single data inside collection
+                ->db.collection_name.findone({unique data to identify})
+        - to insert new data
+                ->db.collection_name.insertOne({data})
+        -To view any single data according to a conditions
+                ->db.collection_name.findone({condition})      (single data)
+                ->db.collection_name.find({condition})         (all data)
+
+        -delete
+                -delete single data
+                        ->db.collection_name.deleteone(data)
+                        -delete counnt=number
+                        -delete count=0    if nothing deleted
+
+
+               
+
+
+
+
+        -update 
+                ->db.collection_name.updateOne({data to be updated}),{new data}
+
+                                                        ({uname:'anu'},{uname:'anu v'})
+                                                        1
+
+curd   -create reade update delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
